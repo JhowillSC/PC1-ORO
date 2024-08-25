@@ -3,8 +3,8 @@
 @{
     ViewBag.Title = "Operaciones";
     var listaOperaciones = ViewData["listaOperaciones"] as List<PC1_ORO.Models.Operaciones>;
- 
-    
+    var montoIngresado = ViewData["Monto"] as decimal?;
+    var dateOperacion = ViewData["Fecha"] as DateTime?;    
 }
 
  <div class="col-md-12 text-center mt-3">
@@ -91,6 +91,15 @@
                 </tbody>
             </table>
         </div>
+        <div class="col-md-12 text-center mt-3">
+            @if (montoIngresado.HasValue)
+            {
+                <h3>Monto Total a Pagar: @montoIngresado.Value</h3>
+            }
+        </div>
+        <div class="col-md-12 text-center mt-3">
+            
+                <h4>Fecha de Operacion: @dateOperacion.Value</h4>
         </div>
     </div>
 </div>
