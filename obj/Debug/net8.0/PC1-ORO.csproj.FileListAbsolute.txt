@@ -28,3 +28,4 @@ C:\Users\jhowi\Desktop\PC1-ORO\obj\Debug\net8.0\refint\PC1-ORO.dll
 C:\Users\jhowi\Desktop\PC1-ORO\obj\Debug\net8.0\PC1-ORO.pdb
 C:\Users\jhowi\Desktop\PC1-ORO\obj\Debug\net8.0\PC1-ORO.genruntimeconfig.cache
 C:\Users\jhowi\Desktop\PC1-ORO\obj\Debug\net8.0\ref\PC1-ORO.dll
+C:\Users\jhowi\Desktop\PC1-ORO\obj\Debug\net8.0\PC1-ORO.sourcelink.json
